@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>User Profile</h1>
+    <div>
+        <p>Username: <span th:text="${userResponse.username}"></span></p>
+        <p>Email: <span th:text="${userResponse.email}"></span></p>
+        <img th:src="${imageData}" alt="User Image">
+    </div>
+</body>
+</html>
